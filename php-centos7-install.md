@@ -7,11 +7,13 @@ yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
 yum -y remove php*
 ````
 
+## enable disable package control
+````
 yum-config-manager --enable remi-php70   [Install PHP 7.0]
 yum-config-manager --enable remi-php71   [Install PHP 7.1]
 yum-config-manager --enable remi-php72   [Install PHP 7.2]
 yum-config-manager --enable remi-php73   [Install PHP 7.3]
-
+````
 
 ## DISABLE PHP7.3
 ````
